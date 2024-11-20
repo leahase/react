@@ -1,11 +1,14 @@
-import kajak from '../assets/kajak.jpg'
+import kajakPic from '../assets/kajak.jpg';
+import "../kajak.css";
 
 function Kajak(){
 return(
     <>
-    <img src={kajak} alt="kajaking"/>
-    <h2>Bike</h2>
-    <p>Try riding a bike.</p>
+    <div>
+    <img src={kajakPic} alt="kajaking"/>
+    <h2>Kajak</h2>
+    <p>Kayaking is an excellent sport for beginners because you can get started as soon as you master the basics.</p>
+    </div>
     </>
 )
 }

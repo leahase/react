@@ -1,11 +1,14 @@
-import bike from '../assets/bike.jpeg'
+import bikePic from '../assets/bike.jpeg';
+import "../bike.css";
 
 function Cycling(){
 return(
     <>
-    <img src={bike} alt="riding a bike"/>
+    <div>
+    <img src={bikePic} alt="riding a bike"/>
     <h2>Bike</h2>
     <p>Try riding a bike.</p>
+    </div>
     </>
 )
 }
