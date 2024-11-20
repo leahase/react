@@ -7,12 +7,13 @@ import Parasailing from './components/parasailing.jsx'
 function App() {
   return (
     <>
+    <div className='flex-container'>
     <Diving></Diving>
     <Cykling></Cykling>
     <Kajak></Kajak>
     <Climbing></Climbing>
     <Parasailing></Parasailing>
-
+    </div>
     </>
   )
 }

@@ -4,10 +4,10 @@ import "../bike.css";
 function Cycling(){
 return(
     <>
-    <div>
-    <img src={bikePic} alt="riding a bike"/>
-    <h2>Bike</h2>
-    <p>Try riding a bike.</p>
+    <div className="bike">
+    <img src={bikePic} alt="riding a bike" className='image'/>
+    <h2 className="heading">Bike</h2>
+    <p className="bike-text">Try riding a bike.</p>
     </div>
     </>
 )
