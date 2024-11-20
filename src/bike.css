@@ -1,16 +1,16 @@
 .bike {
     border: 1px solid black;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px rgb(245, 149, 149);
     padding: 20px;
     margin: 10px;
     text-align: center;
     display: inline-block;
 }
-.image{
+.imgage{
     height: auto;
-    max-width: 90%;
+    max-width: 60%;
   }
-.heading {
+.bike-heading {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

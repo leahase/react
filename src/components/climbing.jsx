@@ -1,13 +1,15 @@
 import climbingPic from '../assets/climbing.jpeg';
 import "../climbing.css";
 
-function Climbing(){
+function Climbing(props){
 return(
     <>
     <div className='climbing'>
     <img src={climbingPic} alt="climbing" className='image'/>
-    <h2 className='heading'>Mountain climing</h2>
-    <p>"Mountaineering is a lifelong philosophy rather than a mere hobby." </p>
+    <h2 className='heading'>Activity:{` ${props.activity}`}</h2>
+    <p className="text">Maybe you could try to {props.activityDescription}.</p> 
+    <p><b>Just to know: {props.skills ? "Do require experience" : "Does not require experience"}</b></p>
+    <p>Price: {props.priceTag}$</p>
     </div>
     </>
 )

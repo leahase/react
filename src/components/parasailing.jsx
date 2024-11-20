@@ -1,13 +1,15 @@
 import parasailingkPic from '../assets/parasailing.jpeg';
 import "../parasailing.css";
 
-function Parasailing(){
+function Parasailing(props){
 return(
     <>
     <div className='parasailing'>
     <img src={parasailingkPic} alt="parasailing" className='image'/>
-    <h2 className='heading'>Parasailing</h2>
-    <p>Parasailing is an excellent sport for beginners because you can get started as soon as you master the basics.</p>
+    <h2 className='heading'>Activity:{` ${props.activity}`}</h2>
+    <p>Maybe you could try to {props.activityDescription}. </p>
+    <p><b>Just to know: {props.skills ? "Do require experience" : "Does not require experience"}</b></p>
+    <p>Price: {props.priceTag}$</p>
     </div>
     </>
 )
