@@ -17,5 +17,17 @@ img {
 }
 h1 {
   text-align: center;
-  
+
+}
+button {
+  border-radius: 20%;
+  border: 2px solid rgb(67, 67, 160);
+  color:blanchedalmond;
+  background-color: rgb(28, 2, 54);
+}
+button:hover {
+  border-radius: 20%;
+  border: 2px solid rgb(196, 196, 232);
+  color:rgb(55, 35, 6);
+  background-color: rgb(196, 173, 71);
 }
