@@ -1,12 +1,12 @@
 .flex-container {
   display: flex;
-  gap: 20px;
-  justify-content: space-around;
+  gap: 15px;
+  justify-content: space-between;
 }
 .flex-box{
-    border: 1px solid black;
+    border: 2px solid rgb(27, 137, 192);
     border-radius: 10px;
-    box-shadow: 5px 5px 5px rgb(245, 149, 149);
+    box-shadow: 3px 2px 2px rgb(149, 162, 245);
     padding: 20px;
     margin: 10px;
     text-align: center;
@@ -17,6 +17,8 @@ img {
 }
 h1 {
   text-align: center;
+  color: rgb(28, 2, 54);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 button {
@@ -30,4 +32,7 @@ button:hover {
   border: 2px solid rgb(196, 196, 232);
   color:rgb(55, 35, 6);
   background-color: rgb(196, 173, 71);
+}
+body {
+  background-color: rgb(240, 248, 219);
 }
