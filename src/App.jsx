@@ -1,12 +1,21 @@
-import Diving from './components/Diving.jsx'
-import Cykling from './components/bike.jsx'
-import Kajak from './components/kajak.jsx'
-import Climbing from './components/climbing.jsx'
-import Parasailing from './components/parasailing.jsx'
+import Diving from './components/Diving.jsx';
+import Cykling from './components/bike.jsx';
+import Kajak from './components/kajak.jsx';
+import Climbing from './components/climbing.jsx';
+import Parasailing from './components/parasailing.jsx';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import About from '../pages/about.jsx';
+import Home from '../pages/home.jsx';
 
 function App() {
   return (
     <>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<About/>}/>
+      <Route path='/' element={<Home/>}/>
+    </Routes>
+    </BrowserRouter>
     <h1>Choose your activity:</h1>
     <div className='flex-container'>
     <Diving activity ="SCUBA DIVING" activityDescription="go scuba diving" skills={true} priceTag="100-150"></Diving>
@@ -19,4 +28,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
