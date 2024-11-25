@@ -9,6 +9,7 @@ import About from "./pages/About.jsx";
 import Navbar from "./Navbar.jsx";
 import Footer from "./footer.jsx";
 import Contact from "./pages/Contact.jsx";
+import Counter from "./pages/price";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path="/about" element={<About/>}/>
       <Route path="/contact" element={<Contact/>}/>
     </Routes>
+    <Counter></Counter>
     <Footer></Footer>
     </BrowserRouter>
    {/* <h1>Choose your activity:</h1>

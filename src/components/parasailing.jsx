@@ -2,6 +2,7 @@ import parasailingkPic from '../assets/parasailing.jpeg';
 import "../parasailing.css";
 
 function Parasailing(props){
+
 return(
     <>
     <div className='flex-box'>
