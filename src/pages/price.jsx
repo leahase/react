@@ -1,25 +1,22 @@
 import { useState } from 'react';
 
 function Counter() {
-    let [count, changeCount] = useState (0);
+    const [count, changeCount] = useState (0);
     const increment = () => {
-        count++;
-        console.log(count);
-    }
+        changeCount(count + 1);
+    };
     const decrement = () => {
-        count --;
-        console.log(count);
-    }
+        changeCount(count - 1);
+    };
     const reset = () => {
-        count = 0;
-        console.log(count);
-    }
+        changeCount(0);
+    };
     return (
         <div>
             <button onClick={increment}>Add One</button>
             <button onClick={decrement}>Put One Away</button>
             <button onClick={reset}>Reset Button</button>
-            <h2>Price:</h2>
+            <h2>Price: {count}</h2>
         </div>
     )
 }
