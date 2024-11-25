@@ -12,7 +12,7 @@ function Counter() {
         changeCount(0);
     };
     return (
-        <div>
+        <div className='button-box'>
             <button onClick={increment}>Add One</button>
             <button onClick={decrement}>Put One Away</button>
             <button onClick={reset}>Reset Button</button>

@@ -21,7 +21,7 @@ function App() {
       <Route path="/about" element={<About/>}/>
       <Route path="/contact" element={<Contact/>}/>
     </Routes>
-    <Counter></Counter>
+    
     <Footer></Footer>
     </BrowserRouter>
    {/* <h1>Choose your activity:</h1>
