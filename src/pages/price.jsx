@@ -12,11 +12,13 @@ function Counter() {
         changeCount(0);
     };
     return (
+        <div className='button-container'>
         <div className='button-box'>
             <button onClick={increment}>Add One</button>
             <button onClick={decrement}>Put One Away</button>
             <button onClick={reset}>Reset Button</button>
             <h2>Price: {count}</h2>
+        </div>
         </div>
     )
 }

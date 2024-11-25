@@ -21,17 +21,8 @@ function App() {
       <Route path="/about" element={<About/>}/>
       <Route path="/contact" element={<Contact/>}/>
     </Routes>
-    
     <Footer></Footer>
     </BrowserRouter>
-   {/* <h1>Choose your activity:</h1>
-    <div className='flex-container'>
-    <Diving activity ="SCUBA DIVING" activityDescription="go scuba diving" skills={true} priceTag="100-150"></Diving>
-    <Cykling activity ="RIDING A BIKE" activityDescription="rent a bike" skills={false} priceTag="10-20"></Cykling>
-    <Kajak activity ="KAYAKING" activityDescription="go kayaking" skills={false} priceTag="10-100"></Kajak>
-    <Climbing activity ="MOUNTAIN CLIMBING" activityDescription="go mountain climbing" skills={true} priceTag="depending on equipment needed. around 100-150"></Climbing>
-    <Parasailing activity ="PARASAILING" activityDescription="get yourself a guide and go parasailing" skills={false} priceTag="150"></Parasailing>
-    </div> */}
     </>
   )
 }
