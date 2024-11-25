@@ -24,14 +24,15 @@ h1 {
 button {
   border-radius: 20%;
   border: 2px solid rgb(67, 67, 160);
-  color:blanchedalmond;
-  background-color: rgb(28, 2, 54);
+  color:rgb(168, 124, 59);
+  border: 2px solid rgb(202, 202, 244);
+  background-color: rgb(229, 210, 247);
 }
 button:hover {
   border-radius: 20%;
   border: 2px solid rgb(196, 196, 232);
-  color:rgb(55, 35, 6);
-  background-color: rgb(196, 173, 71);
+  background-color:rgb(236, 180, 95);
+  color:rgb(33, 65, 81);
 }
 body {
   background-color: rgb(240, 248, 219);
@@ -79,5 +80,31 @@ nav ul li {
   border: 1px solid rgb(239, 209, 164);
 }
 .nav-link:hover{
+  color:rgb(33, 65, 81);
+  background-color: rgb(179, 243, 139);
+}
+/* footer */
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 98vw;
+  border: 2px solid rgb(202, 202, 244);
+  background-color: rgb(229, 210, 247);
+  opacity: 0.8;
+}
+
+footer .footer-link, p  {
+  list-style-type: none;
+  padding: 5px;
+  margin: 0 15px;
+  text-decoration: none;
+  gap: 30px;
+  font-size: 15px;
+  color:rgb(74, 181, 234);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer-link:hover{
   color:rgb(33, 65, 81);
 }

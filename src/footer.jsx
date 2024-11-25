@@ -3,10 +3,11 @@ import {Link} from "react-router-dom";
 function Footer(){
     return <div>
         <footer>
+            <p>©</p>
             <p>
-            <Link to="/" >Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="/" className="footer-link">Home</Link>
+            <Link to="/about" className="footer-link">About</Link>
+            <Link to="/contact" className="footer-link">Contact</Link>
             </p>
         </footer>
     </div>
