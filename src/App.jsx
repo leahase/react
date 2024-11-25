@@ -7,6 +7,8 @@ import { BrowserRouter , Routes , Route } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Navbar from "./Navbar.jsx";
+import Footer from "./footer.jsx";
+import Contact from "./pages/Contact.jsx";
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
+      <Route path="/contact" element={<Contact/>}/>
     </Routes>
+    <Footer></Footer>
     </BrowserRouter>
    {/* <h1>Choose your activity:</h1>
     <div className='flex-container'>
