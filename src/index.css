@@ -59,7 +59,7 @@ body {
   height: 50px;
   padding: 10px;
   padding-bottom: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
   gap: 20px;
   
 }
@@ -109,7 +109,7 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 10vh;
+  height: 5vh;
   width: 98vw;
   border: 2px solid rgb(202, 202, 244);
   background-color: rgb(229, 210, 247);
