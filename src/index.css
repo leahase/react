@@ -47,3 +47,37 @@ body {
   text-align: center;
   gap: 20px;
 }
+/* navbar */
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 98vw;
+  border: 2px solid rgb(202, 202, 244);
+  background-color: rgb(229, 210, 247);
+  opacity: 0.8;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0 15px;
+  color:rgb(28, 2, 54);
+  text-decoration: none;
+}
+.nav-link {
+  color:rgb(74, 181, 234);
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid rgb(239, 209, 164);
+}
+.nav-link:hover{
+  color:rgb(33, 65, 81);
+}
