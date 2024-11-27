@@ -10,6 +10,7 @@ import Navbar from "./Navbar.jsx";
 import Footer from "./footer.jsx";
 import Contact from "./pages/Contact.jsx";
 import Counter from "./pages/price";
+import Color from "./pages/Color.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/contact" element={<Contact/>}/>
+      <Route path="/color" element={<Color/>}/>
     </Routes>
     <Footer></Footer>
     </BrowserRouter>
