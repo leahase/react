@@ -12,10 +12,11 @@ import { useState } from 'react';
 // export default Color;
 
 // försöker usestate istället av usecolor
+
 function Color() {
     const [color, setColor] = useState("#94A7AE");
     const eventColorPicker = (e) => {
-        setColor(ne.target.value)
+        setColor(e.target.value)
     };
 
     return <div style={{ backgroundColor: color}}> 
