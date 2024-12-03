@@ -9,6 +9,7 @@ function Footer(){
             <Link to="/about" className="footer-link">About</Link>
             <Link to="/contact" className="footer-link">Contact</Link>
             <Link to="/color" className="footer-link">Color-picker</Link>
+            <Link to="/todo" className="footer-link">todo list</Link>
             </p>
         </footer>
     </div>

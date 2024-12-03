@@ -11,6 +11,7 @@ import Footer from "./footer.jsx";
 import Contact from "./pages/Contact.jsx";
 import Counter from "./pages/price";
 import Color from "./pages/Color.jsx";
+import Todo from "./pages/Todo.jsx";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path="/about" element={<About/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/color" element={<Color/>}/>
+      <Route path="/todo" element={<Todo/>}/>
     </Routes>
     <Footer></Footer>
     </BrowserRouter>
