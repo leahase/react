@@ -1,4 +1,3 @@
-import heroPic from '../assets/hero.jpg';
 import "../index.css";
 function Home() {
     
