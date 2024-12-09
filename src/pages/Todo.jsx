@@ -5,7 +5,7 @@ function Todo() {
     const [tasks, setTasks] = useState([]);
 
   const addTask =() => { //fuction to add task
-
+    
   }
 
   const removeTask =() => { //fuction to remove task
