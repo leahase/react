@@ -12,7 +12,9 @@ function Todo() {
   };
 
   const removeTask =(index) => { //fuction to remove task
-    setTasks();
+    const newTasks = [...tasks];//kopera task 
+    newTasks.splice(index,1); //remove task
+    setTasks(newTasks);
   };
 
     return <div> <h1>To do list</h1>
