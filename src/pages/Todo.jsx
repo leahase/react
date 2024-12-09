@@ -27,8 +27,12 @@ function Todo() {
     />
     
   
-       <p><button onClick={addTask}>Add yout To Do</button></p>
-       <p><button onClick={removeTask}>Remove your To Do</button></p>
+       <button onClick={addTask}>Add your To Do</button>
+       {tasks.map((t, i) => (
+       <div key={i}>
+            {t} <button onClick={() => removeTask(i)}>Remove your To Do</button>
+       </div>
+       ))}
     </div>
 }
 export default Todo;
