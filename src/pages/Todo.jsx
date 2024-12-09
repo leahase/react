@@ -11,21 +11,22 @@ function Todo() {
     }
   };
 
-  const removeTask =() => { //fuction to remove task
+  const removeTask =(index) => { //fuction to remove task
+    setTasks();
+  };
 
-  }
     return <div> <h1>To do list</h1>
     <p>add your items</p>
     <input
         type="text"
         value={task}
-        onChange={() setTask()
+        onChange={(e) => setTask(e.target.value)}
         placeholder="Enter your to do"
     />
-    <button onClick={addTask}></button>
-    <ul>
-       
-    </ul>
+    
+  
+       <p><button onClick={addTask}>Add yout To Do</button></p>
+       <p><button onClick={removeTask}>Remove your To Do</button></p>
     </div>
 }
 export default Todo;
