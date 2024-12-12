@@ -12,6 +12,7 @@ import Contact from "./pages/Contact.jsx";
 import Counter from "./pages/price";
 import Color from "./pages/Color.jsx";
 import Todo from "./pages/Todo.jsx";
+import Search from "./pages/search.jsx";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/color" element={<Color/>}/>
       <Route path="/todo" element={<Todo/>}/>
+      <Route path="/search" element={<Search/>}/>
     </Routes>
     <Footer></Footer>
     </BrowserRouter>

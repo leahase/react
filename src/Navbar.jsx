@@ -9,6 +9,7 @@ function Navbar(){
                 <li><Link to="/contact" className="nav-link">Contact</Link></li>
                 <li><Link to="/color" className="nav-link">Color-picker</Link></li>
                 <li><Link to="/todo" className="nav-link">to-do-list</Link></li>
+                <li><Link to="/search" className="nav-link">API</Link></li>
             </ul>
         </nav>
     </div>
