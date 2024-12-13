@@ -4,20 +4,31 @@ import axios from 'axios';
 
    
       function Search (){
-        const [trivia, setTrivia] = useState("");
+        const [facts, setFacts] = useState([]);
     
 
-      const generateTrivia = () =>{
-        axios.get("https://opentdb.com/api.php?amount=10&difficulty=easy&type=boolean").then(response => {
-            setTrivia(response.data.results);
-        });
+      const generateFacts = () =>{
+        axios.get("https://cat-fact.herokuapp.com/facts").then(response => {
+            setFacts(response.data);
+        })
+        .catch((error) => {
+            console.error('error', error);
+         });
       };
    
       return (
         <div>
-            <button onClick={generateTrivia}>Search for Trivia questions</button>
-            <h2>Trivia</h2>
-
+            <button onClick={generateFacts}>Search for Cat facts</button>
+            <h2>Cats facts</h2>
+            <ul>
+                {facts.length > 0 ? (
+                    facts.map((fact, index)=>(
+                        <li key={index}>{fact.text}</li>
+                    ))
+                ) : (
+                    <li>No facts fetched yet.</li>
+                    )}
+            </ul>
         </div>
       );
     }
