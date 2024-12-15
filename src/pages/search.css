@@ -1,3 +1,6 @@
+.container-api{
+    display: inline-block;
+}
 .button-api {
     background-color:#B742FF;
     color: white;
@@ -32,3 +35,7 @@ li {
     color:#C3C0C5
 
 }
+.images-pic1{}
+.images-pic2{}
+.image-vector2{}
+.image-vector3{}

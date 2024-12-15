@@ -2,6 +2,11 @@ import "../index.css";
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
 import "./search.css";
+import Vector2 from '../assets/Vector2.png';
+import Pic2 from '../assets/Group1.png';
+import Vector3 from '../assets/Vector3.png';
+import Pic1 from '../assets/Group.png';
+
 
    
       function Search (){
@@ -21,7 +26,7 @@ import "./search.css";
       };
    
       return (
-        <div>
+        <div class="container-api">
             
             <h2>Cats facts</h2>
             <input class="input-api"
@@ -44,6 +49,10 @@ import "./search.css";
                 <li class="box-item">How to choose font</li>
                 <li class="box-item">How to choose color palette</li>
             </ul>
+            {/* <img src={Vector2} alt="purple lines"  className='image-vector2'/>
+            <img src={Pic2} alt="purple lines" className='image-pic2'/>
+            <img src={Vector3} alt="purple lines" className='image-vector3'/>
+            <img src={Pic1} alt="purple lines" className='image-pic1'/> */}
         </div>
       );
     }
