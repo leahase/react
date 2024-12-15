@@ -56,7 +56,6 @@ import Clock from '../assets/Group2.svg';
             <section class="image-box">
             <img src={Vector2} alt="purple lines"  class='image-vector2'/>
             <img src={Pic2} alt="purple lines" class='image-pic2'/>
-            <img src={Vector3} alt="purple lines" class='image-vector3'/> 
             <img src={Pic1} alt="purple lines" class='image-pic1'/>
             </section>
         </div>
