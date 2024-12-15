@@ -5,13 +5,16 @@ import axios from 'axios';
    
       function Search (){
         const [facts, setFacts] = useState([]);
+        const [error, setError] = useState(null);
     
 
       const generateFacts = () =>{
+        setError(null);
         axios.get("https://cat-fact.herokuapp.com/facts").then(response => {
             setFacts(response.data);
         })
         .catch((error) => {
+            setError('could not fetch.')
             console.error('error', error);
          });
       };
