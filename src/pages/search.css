@@ -1,3 +1,7 @@
+.body {
+    background-color: aliceblue;
+}
+
 .container-api{
     display: inline-block;
 }
@@ -39,3 +43,16 @@ li {
 .images-pic2{}
 .image-vector2{}
 .image-vector3{}
+
+.search-nav-link{
+    text-decoration: none;
+    color:#8B8A8B;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; /*add Oxygon font*/
+    font-size: 20px;
+    
+}
+.search-nav-logo{
+    color:#B742FF;
+    text-decoration: none;
+    font-size: 30px;
+}

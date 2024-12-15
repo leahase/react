@@ -4,7 +4,7 @@ function SearchNavbar(){
     return <div className="search-nav-container">
         <nav>
             <ul>
-                <li><Link to="/" className="search-nav-link">Search</Link></li>
+                <li><Link to="/" className="search-nav-logo">Seker</Link></li>
                 <li><Link to="/" className="search-nav-link">Images</Link></li>
                 <li><Link to="/" className="search-nav-link">Videos</Link></li>
                 <li><Link to="/" className="search-nav-link">Maps</Link></li>
