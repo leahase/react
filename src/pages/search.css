@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
 body {
     background-color: #FCF6FF;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .container-api {
@@ -8,6 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    position: relative;
 
 }
 
@@ -62,7 +68,17 @@ li {
 .box1 {
     background-color: #F7EEFC;
 }
-.images-pic1{}
+
+/* .images-lines{
+    display: flex;
+} */
+.images-pic1{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    
+
+}
 .images-pic2{}
 .image-vector2{}
 .image-vector3{}
@@ -79,7 +95,7 @@ li {
 .search-nav-link{
     text-decoration: none;
     color:#8B8A8B;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; /*add Oxygon font*/
+    font-family: 'Oxygen', sans-serif; 
     font-size: 20px;
     
 }
@@ -87,12 +103,15 @@ li {
     color:#B742FF;
     text-decoration: none;
     font-size: 30px;
+    font-weight: bold;
 }
 
 .drop-sign{
     color: #B742FF;
     border: none;
     font-size: 20px;
+    border: none;
+    background-color: none;
 }
 
 .clock {
