@@ -23,12 +23,13 @@ body {
     
 }
 .input-api {
-    display:inline;
     width: 740px;
     height: 67px;
     background-image: url('searchicon.png');
     border-radius: 15px ;
     opacity: 50%;
+    border: none;
+    padding-left: 0px;
 }
 .input-button-container{
     border-color:#B742FF;
