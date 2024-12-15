@@ -40,7 +40,9 @@ const location = useLocation();
       <Route path="/todo" element={<Todo/>}/>
       <Route path="/search" element={<Searchbar/>}/>
     </Routes>
-    <Footer></Footer>
+    {location.pathname !== "/search" && <Footer/> /* Visar footer för alla förutom search */}
+    
+  
    
     </div>
   )

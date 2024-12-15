@@ -44,6 +44,11 @@ li {
 .image-vector2{}
 .image-vector3{}
 
+.search-nav-container {
+    border: none;
+    background-color: white;
+    
+}
 .search-nav-link{
     text-decoration: none;
     color:#8B8A8B;
@@ -62,3 +67,4 @@ li {
     border: none;
     font-size: 20px;
 }
+
