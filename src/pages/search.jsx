@@ -6,6 +6,7 @@ import Vector2 from '../assets/Vector2.png';
 import Pic2 from '../assets/Group1.png';
 import Vector3 from '../assets/Vector3.png';
 import Pic1 from '../assets/Group.png';
+import Clock from '../assets/Group2.svg';
 
 
    
@@ -28,7 +29,6 @@ import Pic1 from '../assets/Group.png';
       return (
         <div class="container-api">
             
-            <h2>Cats facts</h2>
             <input class="input-api"
                 type="text"
                 placeholder="How to design"  
@@ -44,10 +44,10 @@ import Pic1 from '../assets/Group.png';
                     )}
             </ul>
             <ul class="search-box">
-                <li class="box-item">How to design</li>
-                <li class="box-item">How to work hard</li>
-                <li class="box-item">How to choose font</li>
-                <li class="box-item">How to choose color palette</li>
+                <li class="box-item box1"><img src={Clock} alt="clock" className='clock'/> How to design</li>
+                <li class="box-item"><img src={Clock} alt="clock" className='clock'/>How to work hard</li>
+                <li class="box-item"><img src={Clock} alt="clock" className='clock'/>How to choose font</li>
+                <li class="box-item"><img src={Clock} alt="clock" className='clock'/>How to choose color palette</li>
             </ul>
             {/* <img src={Vector2} alt="purple lines"  className='image-vector2'/>
             <img src={Pic2} alt="purple lines" className='image-pic2'/>
