@@ -1,5 +1,5 @@
-.body {
-    background-color: aliceblue;
+body {
+    background-color: #FCF6FF;
 }
 
 .container-api {
@@ -24,6 +24,7 @@
     background-image: url('searchicon.png');
     border-radius: 15px ;
     border-color: #B742FF;
+    opacity: 50%;
 }
 
 li {
@@ -54,9 +55,13 @@ li {
 .image-vector3{}
 
 .search-nav-container {
-    border: none;
-    background-color: white;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 98vw;
+    border: 2px solid rgb(238, 238, 241);
+    opacity: 0.8;
 }
 .search-nav-link{
     text-decoration: none;
