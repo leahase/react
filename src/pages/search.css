@@ -10,6 +10,8 @@ body {
     padding: 20px;
 
 }
+
+
 .button-api {
     background-color:#B742FF;
     color: white;
@@ -17,20 +19,30 @@ body {
     width: 146px;
     border-radius: 10% ;
     font-size: 20px;
+    margin-right: 0px;
+    
 }
 .input-api {
+    display:inline;
     width: 740px;
     height: 67px;
     background-image: url('searchicon.png');
     border-radius: 15px ;
-    border-color: #B742FF;
     opacity: 50%;
+}
+.input-button-container{
+    border-color:#B742FF;
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    border: 2px solid #B742FF; 
+    border-radius: 15px;
+    padding: 5px; 
+    max-width: 740px;
 }
 
 li {
    list-style: none;
-
-
 }
 .search-box {
     display: flex;
@@ -39,7 +51,7 @@ li {
     max-width: 740px;
     height: 256px;
     box-shadow: 0px 4px 0px 4px #B742FF1A;
-    font-family: Oxygen
+    font-family: Oxygen;
 }
 .box-item {
     color:#C3C0C5;

@@ -28,7 +28,7 @@ import Clock from '../assets/Group2.svg';
    
       return (
         <div class="container-api">
-            
+            <div class="input-button-container">
             <input class="input-api"
                 type="text"
                 placeholder="How to design"  
@@ -41,8 +41,9 @@ import Clock from '../assets/Group2.svg';
                     ))
                 ) : (
                     <li>.</li>
-                    )}
+                    )}   
             </ul>
+            </div>
             <ul class="search-box">
                 <li class="box-item box1"><img src={Clock} alt="clock" className='clock'/> How to design</li>
                 <li class="box-item"><img src={Clock} alt="clock" className='clock'/>How to work hard</li>
