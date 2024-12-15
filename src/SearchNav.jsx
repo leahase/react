@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 
-function Navbar(){
+function SearchNavbar(){
     return <div className="search-nav-container">
         <nav>
             <ul>
@@ -15,4 +15,4 @@ function Navbar(){
         </nav>
     </div>
 }
-export default Navbar;
+export default SearchNavbar;

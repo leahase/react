@@ -3,7 +3,7 @@
 // import Kajak from './components/kajak.jsx'
 // import Climbing from './components/climbing.jsx'
 // import Parasailing from './components/parasailing.jsx';
-import { BrowserRouter , Routes , Route } from "react-router-dom";
+import { BrowserRouter , Routes , Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Navbar from "./Navbar.jsx";
@@ -13,12 +13,24 @@ import Counter from "./pages/price";
 import Color from "./pages/Color.jsx";
 import Todo from "./pages/Todo.jsx";
 import Searchbar from "./pages/search.jsx";
+import SearchNavbar from "./SearchNav.jsx";
 
-function App() {
+const App = () => {
   return (
-    <>
     <BrowserRouter>
-    <Navbar></Navbar>
+    <RouteWrapper/>
+    </BrowserRouter>
+  );
+};
+
+const RouteWrapper = () =>{
+const location = useLocation();
+
+  return (
+    <div>
+    {location.pathname !== "/search" && <Navbar/> /* Visar nav för alla förutom search */}
+    {location.pathname === "/search" && <SearchNavbar/> /* Visar nav för search */}
+   
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
@@ -28,8 +40,8 @@ function App() {
       <Route path="/search" element={<Searchbar/>}/>
     </Routes>
     <Footer></Footer>
-    </BrowserRouter>
-    </>
+   
+    </div>
   )
 }
 
